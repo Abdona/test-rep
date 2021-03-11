@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+.roboto-font {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.arial-font {
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+.back-ground-color {
+  background-color: red;
+}
+
+.boder-right {
+  border-right: 1px solid #dee2e6;
+}
+
+@media (max-width: 576px) {
+  .svg-logo-xs {
+    width: 132px;
+    height: 20px;
+  }
+}
+
+.hambutt div {
+  background-color: #f5f5dc;
+  width: 22px;
+  height: 1px;
+}
+
+.ham-2 {
+  margin-top: 5px;
+}
+
+.ham-3 {
+  margin-top: 5px;
+}
+
+@media (min-width: 1024px) {
+  .w-resest {
+    width: 100%;
+  }
+}
+
+.w-92 {
+  width: 93% !important;
+}
+
+.line-heigh-new {
+  line-height: 1.13;
+}
+
+.bg-grey {
+  background-color: #f4f5f6;
+}
+
+.border-new {
+  border: 1px solid #e0e1e1;
+}
+
+@media (max-width: 767px) {
+  .p-xs {
+    padding: 0 !important;
+  }
+
+  .w-80 {
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .w-md-50 {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .w-lg-78 {
+    width: 77% !important;
+  }
+}
+
+.bg-twhite {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.thumbnail-img {
+  width: 90px;
+  height: 90px;
+}
+
+.vs-logo::after {
+  border: 1px solid red;
+  display: inline-block;
+  width: 100%;
+  content: "";
+}
